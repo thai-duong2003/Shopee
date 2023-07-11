@@ -31,12 +31,12 @@ let valueinput;
 
 document.querySelector(".header__search-btn").onclick = () => {
   setconfig("searchvalue", input.value); //gọi hàm, truyền gt để lấy dl lưu vào bộ nhớ
-  window.location = "/category.html";
+  window.location = "category.html";
 };
 document.querySelector(".header__search-input").onkeyup = (e) => {
   if (e.which === 13) {
     setconfig("searchvalue", input.value); //gọi hàm, truyền gt để lấy dl lưu vào bộ nhớ
-    window.location = "/category.html";
+    window.location = "category.html";
     document.querySelector(".header__search-history").style.display = "none";
   }
 };
