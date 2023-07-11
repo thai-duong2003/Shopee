@@ -1,0 +1,29 @@
+/* ipad */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .footer__bottom-info {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 46px;
+  }
+  .register__footer-grid {
+    padding-bottom: 15px;
+    width: 100%;
+  }
+  .footer__bottom {
+    margin-top: 0;
+  }
+}
+
+/* phone */
+@media (max-width: 739px) {
+  .footer {
+    padding: 0 10px;
+  }
+  .grid.footer__bottom-info {
+    display: block;
+  }
+  .footer__bottom-info span {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,51 @@
+/* Mobile & table */
+@media (max-width: 1023px) {
+  .hide-on-mobile-table {
+    display: none;
+  }
+  .register__container {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* table */
+@media (min-width: 740px) and (max-width: 1023px) {
+  :root {
+    --header-height: 68px;
+    --navbar-height: 0px;
+  }
+  .hide-on-table {
+    display: none;
+  }
+  .auth-form {
+    width: 60%;
+  }
+}
+
+/* Moblie */
+@media (max-width: 739px) {
+  :root {
+    --header-height: 54px;
+    --navbar-height: 0px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .auth-form {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .header__navbar-item {
+    margin: auto;
+  }
+  .header__logo-img {
+    margin: 0;
+  }
+}

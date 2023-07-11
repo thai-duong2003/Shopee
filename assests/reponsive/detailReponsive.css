@@ -1,0 +1,446 @@
+/* ipad mobi */
+@media (max-width: 1023px) {
+  .detail {
+    padding-left: 0;
+  }
+  .detail__share,
+  .ingredient,
+  .ingredient > div > p:first-child,
+  .mota__content,
+  .description__price__old {
+    font-size: 1.3rem;
+  }
+  .shop__name,
+  .baohiem_mobi a {
+    display: flex;
+    align-items: center;
+  }
+}
+/* ipad */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .shop__name {
+    gap: 30px;
+  }
+
+  .detail__img {
+    width: 100%;
+  }
+  .detail__large__img {
+    height: 315px;
+  }
+
+  .detail__share__app i {
+    font-size: 2rem;
+  }
+  .detail__share__app {
+    margin: 0 20px 0 0;
+  }
+  .detail__share__app span {
+    min-width: 52px;
+  }
+  .banchay_item {
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .detail__like {
+    margin: 0;
+  }
+  .description_title__name {
+    align-items: self-start;
+  }
+  .description_title__name h2 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .description_title__rate {
+    margin: 15px 0 0;
+  }
+  .description__price {
+    padding: 15px 20px 10px;
+  }
+  .ingredient {
+    padding-right: 0;
+  }
+  .ingredient > div > p:first-child {
+    width: 90px;
+    margin-right: 10px;
+  }
+  .Shippinp > div {
+    width: 350px;
+  }
+  .Shipping_to,
+  .danhgia__list_item {
+    margin-bottom: 5px;
+  }
+  .Shipping_to__title {
+    gap: 3px;
+  }
+  .color__list__item {
+    font-size: 11px;
+    padding: 4px 0;
+    margin: 0 0 4px;
+  }
+  .Quantity {
+    width: 375px;
+  }
+  .size__list__item {
+    padding: 3px 0;
+  }
+  .button-cart-buy button,
+  .shop__active button,
+  .danhgia__list_item {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .shop__active {
+    align-self: self-start;
+    gap: 20px;
+    display: inline-flex;
+  }
+  .shop__info {
+    margin-top: 30px;
+  }
+  .shop__info_acti {
+    justify-content: flex-start;
+  }
+  .shop__info__bottom.row {
+    margin-top: 15px;
+  }
+  .danhgia_block h5 {
+    margin: 5px 0 0;
+  }
+  .danhgia__info {
+    padding: 20px 30px;
+  }
+  .danhgia__list {
+    flex-wrap: wrap;
+  }
+  .danhgia__tatca {
+    margin-top: 0;
+  }
+}
+/* phone */
+@media (max-width: 739px) {
+  .time_online {
+    font-size: 1.3rem;
+  }
+  .headerApp,
+  .footer,
+  .detail_mobi_head__menu_list,
+  .title__rate__Denounce,
+  .title__ratings,
+  .ingredient,
+  .shop__chat,
+  .view_shop.active i,
+  .shop__info,
+  .chitietlist,
+  .danhgia__star,
+  .danhgia_back,
+  .num_page {
+    display: none;
+  }
+  .tim i,
+  .baohiem_mobi,
+  .mota__content_xemthem,
+  .mota__content_overlay,
+  .danhgia_mobi,
+  .xemtatcabinhluan,
+  .mobiFooter {
+    display: block;
+  }
+  .detail_mobi_head {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    padding: 0 15px;
+    height: 44px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+  }
+  .detail_mobi_head__name_product {
+    width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    /* color: transparent; */
+    font-size: 18px;
+  }
+
+  .detail_mobi_head__back i,
+  .detail_mobi_head_cart i,
+  .detail_mobi_head__menu_bar > i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  .detail {
+    margin-top: 0;
+  }
+  .detail__large__img {
+    margin: 0;
+    height: 410px;
+  }
+  .detail_mobi_head_cart {
+    position: relative;
+  }
+  span.header__cart-notice {
+    top: 2px;
+    right: -8px;
+    padding: 0px 6px;
+  }
+
+  /* detail */
+  .detail__img {
+    width: 100%;
+  }
+  .detail__share {
+    justify-content: space-around;
+  }
+  .detail__share__app,
+  .detail__share_item {
+    gap: 2px;
+    margin: 0;
+  }
+  .detail_description,
+  .shop {
+    padding: 0 10px;
+    position: relative;
+    margin-top: 25px;
+  }
+  .description_title__name h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 1.6rem;
+  }
+  .description_title__rate {
+    margin: 10px 0 5px;
+    position: absolute;
+    top: 145px;
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .tim i {
+    font-size: 2.3rem;
+  }
+  .title__rate__start span {
+    order: 2;
+    display: block;
+    border-bottom: none;
+  }
+  .start__list__item i {
+    color: #fcd511;
+  }
+  .description__price,
+  .danhgia__info {
+    padding: 10px;
+  }
+  .description__price__oldnew {
+    padding-bottom: 12px;
+  }
+  .description__price__new {
+    margin-bottom: 9px;
+    font-size: 1.8rem;
+  }
+
+  .baohiem_mobi {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+  }
+  .baohiem_mobi__arrow__right.fa-solid.fa-angle-right {
+    margin: 0 10px;
+    color: #947b7b;
+    font-size: 18px;
+  }
+  .Shippingfee.ship_mobi {
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+  }
+  .Shippingfee.ship_mobi i {
+    color: #312e2e;
+  }
+  .shop_avata {
+    width: 60px;
+    height: 60px;
+  }
+  .shop_avata .description_title_love {
+    margin: 0;
+    font-size: 11px;
+    min-width: 53px;
+    bottom: -5px;
+  }
+  .shop__shop.l-4 {
+    gap: 10px;
+  }
+  .nickname {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  .time_online {
+    color: #7c7878;
+  }
+  .view_shop.active {
+    margin: 0 0 0 125px;
+  }
+  .shop__info__top.row {
+    flex-wrap: nowrap;
+  }
+  .shop__info_acti span:last-child {
+    order: 1;
+    margin: 0 10px 0 0;
+  }
+  .shop__info_acti span:first-child {
+    order: 2;
+  }
+  .shop__info__mobi {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+  }
+  .banchay {
+    position: absolute;
+    top: 970px;
+    left: 0;
+  }
+  .banchay > .row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .banchay > .row::-webkit-scrollbar {
+    display: none;
+  }
+  .chitiet_block-top {
+    margin-top: 310px;
+  }
+  .chitiet_block {
+    padding: 0 10px;
+    margin-top: 330px;
+  }
+  .banchay h5 {
+    color: #686565;
+    font-size: 17px;
+    font-weight: 100;
+  }
+
+  .mota {
+    position: relative;
+  }
+
+  .mota h5 {
+    padding: 0;
+  }
+  .mota__content {
+    text-align: justify;
+    height: 300px;
+    overflow-y: hidden;
+  }
+  .mota__content_overlay {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background: linear-gradient(0deg, white, rgba(255, 255, 255, 0.2));
+    position: absolute;
+    bottom: 67%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .mota__content_xemthem {
+    margin-top: 40px;
+    color: var(--primary-color);
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+  }
+  .danhgia_block {
+    margin-top: 20px;
+  }
+  .danhgia_mobi {
+    width: 100%;
+  }
+  .danhgia_mobi_star {
+    display: flex;
+    justify-content: space-between;
+  }
+  .danhgia_mobi_star > div {
+    display: flex;
+    gap: 7px;
+    font-size: 13px;
+    color: #7a7373;
+  }
+  .danhgia_mobi_star > p {
+    color: var(--primary-color);
+    font-size: 16px;
+  }
+  button.danhgia_mobi_btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin: 15px 5px 5px 0;
+  }
+  .danhgia_block h5 {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .user_comment {
+    padding: 16px 0;
+  }
+  .xemtatcabinhluan {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    padding-top: 13px;
+    border-bottom: none;
+  }
+  .mobiFooter,
+  .mobiFooter_chatcart {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+  }
+  .chatcart_chat,
+  .chatcart_cart {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .mobiFooter__buy {
+    text-align: center;
+    min-width: 145px;
+    background-color: var(--primary-color);
+    line-height: 55px;
+    width: 30%;
+  }
+}
+.mobiFooter_chatcart {
+  background-color: #00bfa5;
+  width: 70%;
+}
+.mobiFooter_chatcart i {
+  font-size: 17px;
+}
+.mobiFooter {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}

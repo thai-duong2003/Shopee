@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail</title>
+    <link rel="stylesheet" href="./assests/css/base.css" />
+    <link rel="stylesheet" href="./assests/css/detail.css" />
+    <link rel="stylesheet" href="./assests/reponsive/detailReponsive.css" />
+    <link rel="stylesheet" href="./assests/css/grid.css" />
+    <link rel="icon" href="./assests/img/logolink.png" />
+    <link
+      rel="stylesheet"
+      href="./assests/fonts/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link for footer -->
+    <link rel="stylesheet" href="./assests/footer/footer.css" />
+    <link rel="stylesheet" href="./assests/footer/footerReponsive.css" />
+
+    <!-- link for header -->
+    <link rel="stylesheet" href="./assests/header/header.css" />
+    <link rel="stylesheet" href="./assests/header/headerReponsive.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="headerApp"></div>
+      <div class="detail_mobi_head">
+        <div class="detail_mobi_head__back">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <p class="detail_mobi_head__name_product">
+          ÁO THUN NAM NGẮN TAY CỔ BẺ MẪU MỚI NHIỀU MÀU
+        </p>
+        <div class="detail_mobi_head_cart">
+          <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+          <span class="header__cart-notice">3</span>
+        </div>
+        <div class="detail_mobi_head__menu_bar">
+          <i class="fa-solid fa-ellipsis"></i>
+          <ul class="detail_mobi_head__menu_list">
+            <li class="detail_mobi_head__menuitem">
+              <i class="fa-regular fa-rectangle-list"></i>
+              <p>Đơn hàng của tôi</p>
+            </li>
+            <li class="detail_mobi_head__menuitem">
+              <svg
+                class="shopee-menu__item-icon"
+                viewBox="0 0 19 20"
+                style="stroke: rgb(0, 0, 0)"
+              >
+                <g fill="none" opacity=".9">
+                  <path
+                    stroke="#000"
+                    d="M1.55872727 5.09090873C.39854545 5.19236327.63745454 6.31818145.63745454 6.31818145L1.55872727 17.624636s-.08590909 1.7198182 2.12481818 1.7844545c.14236364 0 10.75990905-.0032727 11.04054545 0C16.862 19.2757269 16.844 17.624636 16.844 17.624636l.9368182-11.30645455s.2282727-1.143-.9368182-1.22727272H1.55872727z"
+                  ></path>
+                  <path
+                    fill="#000"
+                    d="M7.05903636 8.76593952c-.57681818.57109091-.84272727 1.63636364-.46063636 2.36209091.30518182.58090909.84027273.85909091 1.44163636 1.13563637.69381819.31827272 1.33527273.38127272 2.01272728.73718181.52363636.27409091 1.37209086.65536364 1.43263636 1.27963637.0605455.62427272-.2209091 1.17081822-.774 1.51118182-1.33363636.8181818-2.79409091.2266364-3.99109091-.6332727-.153-.1096364-.47209091-.0049091-.56209091.1358182-.108.1701818-.06872727.5293636.08263637.6381818 1.17654545.8443636 2.77036363 1.2706363 4.221.8697272.64390905-.1783636 1.26081815-.526909 1.59709095-1.0898181.3747272-.6259091.486-1.52590913.099-2.14772731-.5792728-.92945455-1.6535455-1.39172728-2.70736368-1.69936364-.29618182-.08590909-.76254546-.24709091-1.03581818-.37963636-.50563637-.24627273-1.02109091-.49172728-1.10209091-1.07672728-.13172728-.9400909.69545454-1.5070909 1.57827272-1.64290909.81081819-.12436363 1.48745455.15054546 2.15263635.58745455.3747273.24627273.8926364-.45818182.5211818-.702-1.29927269-.85254546-3.33654542-1.04318182-4.50572724.11454545"
+                  ></path>
+                  <path
+                    stroke="#000"
+                    d="M5.23522727 5.122c.342-2.09863636 1.99063637-3.7129091 3.97227273-3.7129091 1.9971818 0 3.6556364 1.63881819 3.9796364 3.76118183"
+                  ></path>
+                </g>
+              </svg>
+              <p>Đơn hàng của tôi</p>
+            </li>
+            <li class="detail_mobi_head__menuitem">
+              <i class="fa-regular fa-circle-question"></i>
+              <p>Cần trợ giúp?</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="detail">
+        <div class="grid wide">
+          <!-- <div class="row"> 
+          </div> -->
+          <div class="row" style="width: 100%">
+            <div class="col l-5 m-5 c-12">
+              <div class="detail__img">
+                <ul class="detail__large__img">
+                  <li class="detail__large__img_item left0" id="slide0">
+                    <img src="./assests/img/clothes/1_1.jpg" alt="" />
+                  </li>
+                  <li class="detail__large__img_item" id="slide1">
+                    <img src="./assests/img/clothes/1_2.jpg" alt="" />
+                  </li>
+                  <li class="detail__large__img_item" id="slide2">
+                    <img src="./assests/img/clothes/1_3.jpg" alt="" />
+                  </li>
+                  <li class="detail__large__img_item" id="slide3">
+                    <img src="./assests/img/clothes/1_4.jpg" alt="" />
+                  </li>
+                  <li class="detail__large__img_item" id="slide4">
+                    <img src="./assests/img/clothes/1_5.jpg" alt="" />
+                  </li>
+                  <li class="detail__large__img_item" id="slide5">
+                    <img src="./assests/img/clothes/1_6.jpg" alt="" />
+                  </li>
+                </ul>
+                <div class="img__list">
+                  <ul class="detail__img__list row">
+                    <li
+                      class="l-2-4 m-2-4 c-2-4 col detail__img__list-item border"
+                    >
+                      <img src="./assests/img/clothes/1_1.jpg" alt="" />
+                    </li>
+                    <li class="l-2-4 m-2-4 c-2-4 col detail__img__list-item">
+                      <img src="./assests/img/clothes/1_2.jpg" alt="" />
+                    </li>
+                    <li class="l-2-4 m-2-4 c-2-4 col detail__img__list-item">
+                      <img src="./assests/img/clothes/1_3.jpg" alt="" />
+                    </li>
+                    <li class="l-2-4 m-2-4 c-2-4 col detail__img__list-item">
+                      <img src="./assests/img/clothes/1_4.jpg" alt="" />
+                    </li>
+                    <li class="l-2-4 m-2-4 c-2-4 col detail__img__list-item">
+                      <img src="./assests/img/clothes/1_5.jpg" alt="" />
+                    </li>
+                    <li class="l-2-4 m-2-4 c-2-4 col detail__img__list-item">
+                      <img src="./assests/img/clothes/1_6.jpg" alt="" />
+                    </li>
+                  </ul>
+                  <button class="detail_arow arrow__left">
+                    <i class="arrow__left fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="detail_arow arrow__right">
+                    <i class="arrow__right fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="detail__share">
+                <div class="detail__share__app detail__share_item">
+                  <span>Chia sẻ :</span>
+                  <i class="fa-brands fa-facebook-messenger"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+                  <i class="fa-brands fa-square-twitter"></i>
+                </div>
+                <div class="detail__like detail__share_item">
+                  <i class="like-icon fa-regular fa-heart"></i>
+                  <i class="liked-icon fa-solid fa-heart"></i>
+                  <p class="like__title">
+                    Đã thích (<span class="numberLike">6,4K</span>)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col l-7 m-7 c-12">
+              <div class="detail_description">
+                <div class="description_title">
+                  <div class="description_title__name">
+                    <span class="description_title_love">yêu thích</span>
+                    <h2>ÁO THUN NAM NGẮN TAY CỔ BẺ MẪU MỚI NHIỀU MÀU</h2>
+                  </div>
+                  <div class="description_title__rate">
+                    <div class="title__rate__start">
+                      <a href="#star">
+                        <span>4.8</span>
+                        <ul class="title__rate__start__list">
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li></ul
+                      ></a>
+                    </div>
+                    <div class="title__ratings">
+                      <a href="#star">
+                        <p><span class="numberrate"> 23K </span>Đánh Giá</p>
+                      </a>
+                    </div>
+                    <div class="title__rate__sold">
+                      <p><span class="numbersold">85,8K</span>Đã Bán</p>
+                    </div>
+                    <div class="title__rate__Denounce">
+                      <p>Tố Cáo</p>
+                      <div class="modalDenounce">
+                        <div class="modalDenounce__reason">
+                          <div class="reason__title">
+                            <span>Chọn lý do</span>
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <ul class="reason__list">
+                            <li class="reason__item">
+                              Sản phẩm bị cấm buôn bán (động vật hoang dã,
+                              18+,...)
+                            </li>
+                            <li class="reason__item">Hàng giả, hàng nhái</li>
+                            <li class="reason__item">
+                              Sản phẩm không rõ nguồn gốc, xuất xứ
+                            </li>
+                            <li class="reason__item">
+                              Hình ảnh sản phẩm không rõ ràng
+                            </li>
+                            <li class="reason__item">
+                              Sản phẩm có hình ảnh, nội dung phản cảm hoặc có
+                              thể gây phản cảm
+                            </li>
+                            <li class="reason__item">
+                              Sản phẩm có dấu hiệu lừa đảo
+                            </li>
+                            <li class="reason__item">Khác</li>
+                          </ul>
+                        </div>
+                        <div class="modalDenounce_send">
+                          <div class="modalDenounce_send_title">
+                            <i class="title__back fa-solid fa-arrow-left"></i>
+
+                            <p class="modalDenounce_send__text">
+                              Sản phẩm bị cấm buôn bán (động vật hoang dã,
+                              18+,...)
+                            </p>
+
+                            <i class="title__close fa-solid fa-xmark"></i>
+                          </div>
+                          <div class="modalDenounce__descrip">
+                            <textarea
+                              class="modalDenounce__descrip__input"
+                              name=""
+                              id=""
+                              cols="30"
+                              rows="10"
+                              placeholder="Mô tả tố cáo (vui lòng nhập từ 10-50 ký tự)"
+                            ></textarea>
+                            <p class="modalDenounce__descrip__invalid">
+                              Description for this reason should have 10 - 50
+                              characters
+                            </p>
+                          </div>
+                          <div class="modalDenounce_send__button">
+                            <button>Gửi Tố Cáo</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- kjhgyg7iu -->
+                    <div class="tim">
+                      <i class="like-icon fa-regular fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="description__price">
+                  <div class="description__price__oldnew">
+                    <div class="description__price__old">
+                      <span>&#8363;</span>120.000
+                    </div>
+                    <div class="description__price__new">
+                      <span>&#8363;</span>75.000
+                    </div>
+                    <span class="description__price__sale">38% GIẢM</span>
+                  </div>
+                  <div class="description__price__sub">
+                    <img src="./assests/img/gicxco.png" alt="" />
+                    <div class="description__price__sub__title">
+                      <h5>Gì Cũng Rẻ</h5>
+                      <i class="fa-regular fa-circle-question"></i>
+                      <p>
+                        Giá tốt nhất so với các sản phẩm cùng loại trên Shopee!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="baohiem_mobi">
+                  <p>Bảo hiểm Thời trang <span>Mới</span></p>
+                  <a href=" "
+                    >Tìm hiểu thêm
+                    <i
+                      class="baohiem_mobi__arrow__right fa-solid fa-angle-right"
+                    ></i>
+                  </a>
+                </div>
+                <div class="Shippingfee ship_mobi">
+                  <i class="fa-solid fa-truck"></i>
+
+                  <p>Phí Vận Chuyển</p>
+                  <p>₫14.000 - ₫22.000</p>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="ingredient">
+                  <div class="description__Discountcode">
+                    <p>Mã Giảm Giá Của Shop</p>
+                    <p>Giảm ₫30k</p>
+                  </div>
+                  <div class="Insurance">
+                    <p>Bảo Hiểm</p>
+                    <p>Bảo hiểm Thời trang <span>Mới</span></p>
+                    <a href=" ">Tìm hiểu thêm</a>
+                  </div>
+                  <div class="Shippinp">
+                    <p>Vận Chuyển</p>
+                    <div>
+                      <div class="Shipping_to">
+                        <div class="Shipping_to__title">
+                          <i class="fa-solid fa-truck"></i>
+                          <p>Vận Chuyển Tới</p>
+                        </div>
+                        <p>Dường Phú diễn quận Bắc từ Liêm Hà Nội</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                      </div>
+                      <div class="Shippingfee">
+                        <p>Phí Vận Chuyển</p>
+                        <p>₫14.000 - ₫22.000</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="color">
+                    <p>MAU</p>
+                    <ul class="row color__list">
+                      <li class="color__list__item col l-3 m-4">XÁM XANH 01</li>
+                      <li class="color__list__item col l-3 m-4">ĐEN 01</li>
+                      <li class="color__list__item col l-3 m-4">TRẮNG 01</li>
+                      <li class="color__list__item col l-3 m-4">XÁM GHI 02</li>
+                      <li class="color__list__item col l-3 m-4">XANH ĐEN 02</li>
+                      <li class="color__list__item col l-3 m-4">XÁM XI MĂNG</li>
+                    </ul>
+                  </div>
+                  <div class="SIZE">
+                    <p>SIZE</p>
+                    <div class="size__list row">
+                      <li class="col l-3 m-3 size__list__item">X</li>
+                      <li class="col l-3 m-3 size__list__item">L</li>
+                      <li class="col l-3 m-3 size__list__item">XL</li>
+                      <li class="col l-3 m-3 size__list__item">XXL</li>
+                    </div>
+                  </div>
+                  <div class="Quantity" style="align-items: center">
+                    <p>Số Lượng</p>
+                    <div class="Quantity__box">
+                      <div class="Quantity__box__minus Quantity__boxbtn">
+                        <i class="fa-solid fa-minus"></i>
+                      </div>
+                      <input
+                        type="text"
+                        value="1"
+                        class="Quantity__box__value"
+                      />
+                      <div class="Quantity__box__plus Quantity__boxbtn">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="Quantity__available">19608 sản phẩm có sẵn</div>
+                  </div>
+                  <div class="button-cart-buy">
+                    <button class="button-cart">
+                      <i class="fa-solid fa-cart-shopping"></i>Thêm Vào Giỏ Hàng
+                    </button>
+                    <button class="button-buy">Mua Ngay</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- shop -->
+          <div class="shop">
+            <div class="row" style="display: flex; align-items: center">
+              <div class="col l-4 m-12 c-12 shop__shop">
+                <div class="shop_avata">
+                  <img src="./assests/img/logoShop/logoshopshirt.jpg" alt="" />
+                  <span class="description_title_love">yêu thích</span>
+                </div>
+                <div class="shop__name">
+                  <div class="shop__name_nick">
+                    <p class="nickname">shopwin69</p>
+                    <p class="time_online">Online 2 Giờ Trước</p>
+                  </div>
+                  <div class="shop__active">
+                    <button class="shop__chat">
+                      <i class="fa-solid fa-message"></i>
+                      Chat Ngay
+                    </button>
+                    <button class="view_shop active">
+                      <i
+                        class="fa-solid fa-box"
+                        style="color: rgb(157 138 138)"
+                      ></i>
+                      Xem Shop
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-8 m-12 c-12">
+                <div class="shop__info">
+                  <div class="shop__info__top row">
+                    <div class="col l-4 m-4 shop__info_acti">
+                      <span>Đánh Giá</span>
+                      <span>119k</span>
+                    </div>
+                    <div class="col l-4 m-4 shop__info_acti">
+                      <span>Tỉ Lệ Phản Hồi</span>
+                      <span>98%</span>
+                    </div>
+                    <div class="col l-4 m-4 shop__info_acti">
+                      <span>Tham Gia</span>
+                      <span>6 năm trước</span>
+                    </div>
+                  </div>
+
+                  <div class="shop__info__bottom row">
+                    <div class="col l-4 m-4 shop__info_acti">
+                      <span>Sản Phẩm</span>
+                      <span>409</span>
+                    </div>
+                    <div class="col l-4 m-4 shop__info_acti">
+                      <span>Thời Gian Phản Hồi</span>
+                      <span>trong vài giờ</span>
+                    </div>
+                    <div class="col l-4 m-4 shop__info_acti">
+                      <span>Người Theo Dõi</span>
+                      <span>147,4k</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="shop__info__mobi">
+                  <div class="col l-4 m-4 shop__info_acti">
+                    <span>Sản Phẩm</span>
+                    <span>409</span>
+                  </div>
+                  <div class="col l-4 m-4 shop__info_acti">
+                    <span>Đánh Giá</span>
+                    <span>119k</span>
+                  </div>
+                  <div class="col l-4 m-4 shop__info_acti">
+                    <span>Phản Hồi Chat</span>
+                    <span>98%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--chi tiet  -->
+        <div class="chitiet_block">
+          <div class="row chitiet_block-top">
+            <div class="col l-10 m-10 c-12 chitiet">
+              <div class="chitietlist">
+                <h3 class="chitiet__title">CHI TIẾT SẢN PHẨM</h3>
+                <div class="chitiet__thanhphan">
+                  <p>Danh Mục</p>
+                  <p>Shopee >Thời Trang Nam > Áo>Áo Polo</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Phong cách</p>
+                  <p>Cổ điển, Cơ bản, Hàn Quốc</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Xuất xứ</p>
+                  <p>Việt Nam</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Chiều dài tay áo</p>
+                  <p>Tay ngắn</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Chất liệu</p>
+                  <p>Cotton</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Dáng kiểu áo</p>
+                  <p>Cổ điển</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Mẫu</p>
+                  <p>Trơn</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Kho hàng</p>
+                  <p>19522</p>
+                </div>
+                <div class="chitiet__thanhphan">
+                  <p>Gửi từ</p>
+                  <p>TP. Hồ Chí Minh</p>
+                </div>
+              </div>
+              <div class="mota">
+                <h5>MÔ TẢ SẢN PHẨM</h5>
+                <div class="mota__content">
+                  - SHOP CHỈ NHẬN TIỀN KHI KHÁCH HÀNG HÀI LÒNG, NHẬN HÀNG KHÔNG
+                  ƯNG KHÔNG VỪA NHẮN TIN CHO SHOP ĐỂ ĐƯỢC PHỤC VỤ, XIN CẢM ƠN
+                  QUÝ KHÁCH <br />
+                  TÙY ĐỘ SÁNG TỐI MÀU SẮC CỦA TỪNG DÒNG ĐIỆN THOẠI KHÁC NHAU SẼ
+                  CHO LÊN MÀU ĐẬM NHẠT CHÊNH LỆCH % KHÁC NHAU MONG QUÝ KHÁCH
+                  THÔNG CẢM <br />
+                  - QUÝ KHÁCH LƯU Ý CHỌN SIZE ĐÚNG THEO THÔNG TIN SẢN PHẨM VÀ
+                  PHÂN LOẠI CẦN ĐẶT <br />
+                  Dễ mua dễ mặc nhanh tay chọn ngay cho mình 1 size phù hợp
+                  <br />
+                  Size M 44-54kg <br />
+                  Size L khoản 55-63kg <br />
+                  Size XL khoản 63_69kg <br />
+                  Size XXL khoản 70-76kg <br />
+                  - Tùy thể trạng và sở thích mặc ôm body hay rộng thoải mái
+                  <br />
+                  chọn tăng giảm size <br />
+                  Mô tã chi tiết sản phẩm <br />
+                  Chất liệu: VẢI CÁ SẤU POLY <br />
+                  Fom dáng ôm nhẹ <br />
+                  Kiểu dáng đơn giãn thanh lịch <br />
+                  Xuất xứ : Việt Nam <br />
+                  Thương hiệu : Nobrand <br />
+                  Kích cỡ M L XL XXL <br />
+                  Thông tin cảnh báo : không có <br />
+                  Hướng dẫn sử dụng : Quần áo mới về chỉ nên giặt nhẹ bằng nước
+                  cho sạch bụi vải sau đó phơi khô . không ngâm quá lâu, không
+                  dùng chất tẩy rửa khi không cần thiết, không giặt máy, không
+                  giặt áo trắng chung với áo màu <br />
+                  Theo dõi shop ngay hôm nay để cập nhật thường xuyên những mẫu
+                  thời trang cao cấp với giá tốt nhất khó có thể tìm mua sản
+                  phẩm tương tự ở nơi khác <br />
+                  #aothuncap <br />
+                  #aothun <br />
+                  #aothunnam <br />
+                  #aothundep <br />
+                  #aocap <br />
+                  #phongnam #xuanhe #giare #revodich #quanao #redep #aosoc
+                  <br />
+                  #aokieu #aothunnamn #aothundoi #thuncotton <br />
+                  #thun #quanao <br />
+                </div>
+                <div class="mota__content_overlay"></div>
+                <div class="mota__content_xemthem">
+                  Xem Thêm
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div id="star" class="danhgia_block row">
+                  <h5>ĐÁNH GIÁ SẢN PHẨM</h5>
+                  <div class="danhgia__info">
+                    <div class="row">
+                      <div class="col l-2 m-3 danhgia__star">
+                        <p><span>4.8</span>trên 5</p>
+                        <ul class="title__rate__start__list">
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                          <li class="start__list__item">
+                            <i class="start__icon fas fa-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col l-10 m-9 danhgia_back">
+                        <ul class="danhgia__list">
+                          <li class="danhgia__list_item">tất cả</li>
+                          <li class="danhgia__list_item">5 Sao (20,1k)</li>
+                          <li class="danhgia__list_item">4 Sao (1,1k)</li>
+                          <li class="danhgia__list_item">3 Sao (202)</li>
+                          <li class="danhgia__list_item">2 Sao (232)</li>
+                          <li class="danhgia__list_item">1 Sao (343)</li>
+                        </ul>
+                        <ul class="danhgia__tatca danhgia__list">
+                          <li class="danhgia__list_item">
+                            Có Bình luận (9,1k)
+                          </li>
+                          <li class="danhgia__list_item">
+                            Có hình ảnh / video (5,4k)
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="danhgia_mobi">
+                        <div class="danhgia_mobi_star">
+                          <div>
+                            <ul class="title__rate__start__list">
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                            </ul>
+                            <span>4,8/5</span>
+                            <span>(23,1k Đánh Giá )</span>
+                          </div>
+                          <p>
+                            Xem tất cả
+                            <i
+                              class="mobi_star_arrow__right fa-solid fa-angle-right"
+                            ></i>
+                          </p>
+                        </div>
+                        <button class="danhgia_mobi_btn">
+                          Giao hàng nhanh (1,5k)
+                        </button>
+                        <button class="danhgia_mobi_btn">
+                          Sản phẩm đẹp (1,2k)
+                        </button>
+                      </div>
+                      <!-- user_comment -->
+                      <div class="user_comment">
+                        <div class="user_avatar">
+                          <a href="">
+                            <img src="./assests/img/logoShop/user.jpg" alt=""
+                          /></a>
+                        </div>
+                        <div class="user__info">
+                          <a href=""><p class="user__name">duong378</p></a>
+                          <div class="user__star">
+                            <ul class="title__rate__start__list">
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                              <li class="start__list__item">
+                                <i class="start__icon fas fa-star"></i>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="user__date_up">
+                            <p>2023-07-22</p>
+                            <span>17:55</span>
+                          </div>
+                          <p class="user__content">
+                            Nghe mấy bạn kia nói vãi mõng😤. Mà s mìh đặc về vãi
+                            dày dặn, mặt mát, nói chung là chuẩn , k hư hỏg về
+                            vấn đề gì. Thích shop này dã mag♥️, ưng cái bụg gì
+                            đâu🤣,lần sau ủg hộ shop típ🥰 Tất cả mọi thứ đều
+                            OK. Hàng đẹp. Vãi dày. Shop nhiệt tình,ship OK đáh
+                            giá cho shop 5*
+                          </p>
+                          <ul class="user__img">
+                            <li class="user__img__item">
+                              <img src="./assests/img/user_img/1.jpg" alt="" />
+                            </li>
+                            <li class="user__img__item">
+                              <img src="./assests/img/user_img/2.jpg" alt="" />
+                            </li>
+                            <li class="user__img__item">
+                              <img src="./assests/img/user_img/3.webp" alt="" />
+                            </li>
+                          </ul>
+                          <div class="user_like">
+                            <div class="user_number__like">
+                              <i class="fa-solid fa-thumbs-up"></i>
+                              <span>6</span>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- chuyen trang -->
+                      <div class="num_page">
+                        <i class="page__arrow__let fa-solid fa-angle-left"></i>
+                        <ul class="page__number">
+                          <li class="page__number__item">
+                            <a class="number__page_active" href="">1</a>
+                          </li>
+                          <li class="page__number__item">
+                            <a class="" href="">2</a>
+                          </li>
+                          <li class="page__number__item">
+                            <a class="" href="">3</a>
+                          </li>
+                          <li class="page__number__item">
+                            <a class="" href="">4</a>
+                          </li>
+                          <li class="page__number__item">
+                            <a class="" href="">5</a>
+                          </li>
+                          <li class="page__number__item">...</li>
+                        </ul>
+                        <i
+                          class="page__arrow__right fa-solid fa-angle-right"
+                        ></i>
+                      </div>
+                      <div class="xemtatcabinhluan mota__content_xemthem">
+                        Xem Tất Cả
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2 m-2 banchay">
+              <h5>Top Sản Phẩm Bán Chạy</h5>
+              <div class="row">
+                <div class="banchay_item col l-12 m-12 c-6">
+                  <img
+                    src="./assests/img/clothes/1_1.jpg"
+                    alt=""
+                    class="banchay__img"
+                  />
+                  <p class="banchay_name">
+                    Áo thun tay dài cổ tròn mặc đôi đẹp khỏi chê
+                  </p>
+                  <p class="banchay__gia">₫69.000</p>
+                </div>
+                <div class="banchay_item col l-12 m-12 c-6">
+                  <img
+                    src="./assests/img/clothes/1_2.jpg"
+                    alt=""
+                    class="banchay__img"
+                  />
+                  <p class="banchay_name">
+                    Áo thun tay dài cổ tròn mặc đôi đẹp khỏi chê
+                  </p>
+                  <p class="banchay__gia">₫79.000</p>
+                </div>
+                <div class="banchay_item col l-12 m-12 c-6">
+                  <img
+                    src="./assests/img/clothes/1_3.jpg"
+                    alt=""
+                    class="banchay__img"
+                  />
+                  <p class="banchay_name">
+                    Áo thun tay dài cổ tròn mặc đôi đẹp khỏi chê
+                  </p>
+                  <p class="banchay__gia">₫79.000</p>
+                </div>
+                <div class="banchay_item col l-12 m-12 c-6">
+                  <img
+                    src="./assests/img/clothes/1_4.jpg"
+                    alt=""
+                    class="banchay__img"
+                  />
+                  <p class="banchay_name">
+                    Áo thun tay dài cổ tròn mặc đôi đẹp khỏi chê
+                  </p>
+                  <p class="banchay__gia">₫79.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+      <div class="mobiFooter">
+        <div class="mobiFooter_chatcart">
+          <div class="chatcart_chat">
+            <i class="fa-solid fa-comments"></i>
+            <p>Chat Ngay</p>
+          </div>
+          <div class="chatcart_cart">
+            <i class="fa-solid fa-cart-plus"></i>
+            <p>Thêm vào Giỏ hàng</p>
+          </div>
+        </div>
+        <div class="mobiFooter__buy">
+          <p>Mua Ngay</p>
+        </div>
+      </div>
+      <!-- <div href="" class="chat">
+        <a href="" class="chat__link">
+          <i class="chat__link-icon fa-solid fa-message"></i>
+          Chat
+        </a>
+      </div> -->
+    </div>
+    <script src="./assests/js/detail.js"></script>
+    <script src="./assests/header/header.js"></script>
+    <script src="./assests/footer/footer.js"></script>
+    <script src="./assests/js/handleSearch.js"></script>
+  </body>
+</html>
