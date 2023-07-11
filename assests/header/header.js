@@ -189,7 +189,7 @@ function headerApp() {
               <li
                 class="header__navbar-user-item header__navbar-user-item--separate"
               >
-                <a href="">Đăng xuất</a>
+                <a >Đăng xuất</a>
               </li>
             </ul>
           </li>
@@ -526,7 +526,7 @@ function headerApp() {
                   </div>
                 </li>
               </ul>
-              <a href="" class="header__cart-view-cart btn btn--primary"
+              <a href="./cart.html" class="header__cart-view-cart btn btn--primary"
                 >Xem Giỏ Hàng</a
               >
             </div>
@@ -560,4 +560,8 @@ document.querySelector(".head_look").onclick = () => {
 document.querySelector(".header__search-input").onclick = () => {
   console.log(234);
   document.querySelector(".header__search-history").classList.toggle("active");
+};
+document.querySelector(".header__navbar-user-item--separate").onclick = () => {
+  console.log(1234);
+  window.location = "register.html";
 };

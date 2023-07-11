@@ -7,8 +7,8 @@ footerCategory = $(".footer__category--table");
 const products = {
   product: [
     {
-      name: "Áo sơ mi basic chất kaki cao cấp, Áo sơ mi nam cực đẹp [AKC]",
-      image: "./assests/img/product/sp1.jpeg",
+      name: "ÁO THUN NAM NGẮN TAY CỔ BẺ MẪU MỚI NHIỀU MÀU",
+      image: "assests/img/clothes/1_1.jpg",
       price: "50.000",
       sold: "6",
     },
@@ -882,3 +882,20 @@ const b = category.listCategory.map((item) => {
   </div>`;
 });
 $(".footer__category--table").innerHTML = b.join("");
+
+// handle
+
+const index_product = $$(".home-product-item");
+
+chuyentrang(index_product, "detail.html");
+chuyentrang($$(".home-product-item--flashSales"), "detail.html");
+chuyentrang($$(".category__container-item"), "category.html");
+
+function chuyentrang(element, value) {
+  element.forEach((item) => {
+    item.href = value;
+    item.onclick = () => {
+      setconfig("searchvalue", "");
+    };
+  });
+}

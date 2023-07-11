@@ -1,9 +1,11 @@
-// const $ = document.querySelector.bind(document);
-// const $$ = document.querySelectorAll.bind(document);
 // search
+import products from "./sanpham.js";
+var products_list = products();
+import { product_category, itepro } from "./handleproduct.js";
+
 var input, li, a, i, textvlu, fillter;
 input = document.querySelector(".header__search-input");
-function search() {
+export function search() {
   fillter = input.value.toUpperCase();
   li = document.querySelectorAll(".home-product__item .col.l-2-4");
 
@@ -53,16 +55,23 @@ historysearch.forEach((item) => {
   };
 });
 
-const category_nav = document.querySelectorAll(".category-item__link");
+const category_product = document.querySelector(".home-product__item");
+const category_nav = document.querySelectorAll(".category-item");
+
 category_nav.forEach((item) => {
   item.onclick = (e) => {
     setconfig("searchvalue", item.ariaValueText);
-    window.location.reload();
     e.preventDefault();
     document
       .querySelector(".category-item.category-item--active")
       .classList.remove("category-item--active");
+
     item.classList.add("category-item--active");
+    if (item.ariaValueText === "") {
+      category_product.innerHTML = product_category(products_list);
+      document.querySelector(".category-list-pro").location.reload();
+    }
+    window.onload();
   };
 });
 if (document.querySelector(".category_page")) {

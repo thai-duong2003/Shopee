@@ -33,7 +33,6 @@ clolorpro.forEach((item) => {
     item.classList.add("active");
   };
 });
-console.log(window.scrollY);
 
 const sizepro = $$(".size__list__item");
 sizepro.forEach((item) => {
@@ -67,4 +66,35 @@ Quantity__boxbtn.forEach((item) => {
 const cart = $(".button-buy");
 cart.onclick = () => {
   window.location = "/cart.html";
+};
+
+// tố cáo
+$(".title__rate__Denounce").onclick = () => {
+  $(".modalDenounce").classList.add("displayflex");
+  console.log(324);
+};
+
+$(".reason__title i").onclick = (e) => {
+  e.stopPropagation();
+  $(".modalDenounce.displayflex").classList.remove("displayflex");
+};
+
+$$(".reason__item").forEach((item) => {
+  item.onclick = (e) => {
+    e.stopPropagation();
+    $(".modalDenounce_send").classList.add("displayblock");
+    $(".modalDenounce__reason").classList.add("displaynone");
+    $(".modalDenounce_send__text").innerText = item.innerText.trim();
+  };
+});
+
+$(".title__close.fa-solid.fa-xmark").onclick = (e) => {
+  e.stopPropagation();
+  $(".modalDenounce.displayflex").classList.remove("displayflex");
+  $(".modalDenounce_send").classList.remove("displayblock");
+  $(".modalDenounce__reason").classList.remove("displaynone");
+};
+$("i.title__back").onclick = () => {
+  $(".modalDenounce_send").classList.remove("displayblock");
+  $(".modalDenounce__reason").classList.remove("displaynone");
 };

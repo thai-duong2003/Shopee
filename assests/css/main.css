@@ -481,6 +481,9 @@
   text-decoration: none;
   border: 8px solid #fff;
 }
+.category-item .category-item__link {
+  margin: 0;
+}
 
 .home-product-item__img-flashSales {
   width: 140px;

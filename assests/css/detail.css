@@ -40,11 +40,16 @@ a {
 .title__close {
   cursor: pointer;
 }
+.modalDenounce_send.displayblock {
+  display: block;
+}
 .modalDenounce_send,
 .reason__title {
   cursor: default;
 }
 
+.modalDenounce.displayflex,
+.displayflex,
 .page__number,
 .title__rate__start__list,
 .Shippingfee,
@@ -60,6 +65,7 @@ a {
 .header.header_noFixed {
   position: initial;
 }
+.displaynone,
 .detail_mobi_head,
 .liked-icon.fa-heart,
 .tim i,
@@ -312,6 +318,7 @@ span.numbersold {
   overflow: hidden;
   white-space: nowrap;
   font-size: 16px;
+  height: 25px;
   text-overflow: ellipsis;
 }
 .title__back {
