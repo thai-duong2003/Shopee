@@ -161,6 +161,7 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
     justify-content: space-between;
+    transition: all 0.05s linear;
   }
   .detail_mobi_head__name_product {
     width: 190px;
@@ -199,6 +200,7 @@
     top: 2px;
     right: -8px;
     padding: 0px 6px;
+    font-size: 12px;
   }
 
   /* detail */

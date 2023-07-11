@@ -98,3 +98,23 @@ $("i.title__back").onclick = () => {
   $(".modalDenounce_send").classList.remove("displayblock");
   $(".modalDenounce__reason").classList.remove("displaynone");
 };
+
+document.onscroll = () => {
+  const oncrol = window.scrollY;
+  console.log(oncrol);
+  if (oncrol > 100) {
+    $(".detail_mobi_head__name_product").style.color = "#000";
+    $(".detail_mobi_head").style.backgroundColor = "#fff";
+    $(".detail_mobi_head").style.borderBottom = "1px solid rgba(0,0,0,.3)";
+    $(".detail_mobi_head__back i").classList.add("coloiactive");
+    $(".detail_mobi_head_cart i").classList.add("coloiactive");
+    $(".detail_mobi_head__menu_bar > i").classList.add("coloiactive");
+  } else {
+    $(".detail_mobi_head__name_product").style.color = "#fff";
+    $(".detail_mobi_head").style.backgroundColor = "transparent";
+    $(".detail_mobi_head").style.borderBottom = "none";
+    $(".detail_mobi_head__back i").classList.remove("coloiactive");
+    $(".detail_mobi_head_cart i").classList.remove("coloiactive");
+    $(".detail_mobi_head__menu_bar > i").classList.remove("coloiactive");
+  }
+};

@@ -216,4 +216,7 @@
   .row.app__container-banner--sales {
     margin: 0;
   }
+  .index_page .header__search.flex_active {
+    top: 70px;
+  }
 }

@@ -1,0 +1,129 @@
+@media (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .cart_page .header__navbar-mini {
+    display: none;
+  }
+  .cart_page .wide,
+  .app__container {
+    width: 670px;
+  }
+  .cart_page .header {
+    height: 100px;
+  }
+  .app__container {
+    padding: 0 15px;
+  }
+  .wrap__item--first,
+  .wrap__item--two,
+  .wrap__item--frame {
+    width: 640px;
+  }
+  .wrap__item--frame-buy-buy {
+    font-size: 13px;
+    min-width: 70px;
+    padding: 1px 0;
+  }
+  p.wrap__item--frame-buy-text,
+  .wrap__item--frame-buy-next a {
+    font-size: 15px;
+  }
+  .wrap__item--frame-voucher-product-contain {
+    align-items: center;
+    width: initial;
+  }
+  .wrap__item--frame-voucher-product-contain-info {
+    width: 105px;
+  }
+  .wrap__item--frame-voucher-product-classify {
+    width: 125px;
+  }
+  .wrap__item--frame-voucher-product-contain-info-text {
+    max-width: 100px;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+  }
+  .wrap__item--frame-voucher-product-contain-img img {
+    width: 26px;
+    object-fit: contain;
+    margin: 0 5px;
+  }
+  .wrap__item--frame-voucher-product-price {
+    display: none;
+  }
+  .wrap__item--frame-voucher-product {
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+  }
+  .wrap__item--frame-voucher-product-quantity {
+    display: initial;
+    flex-direction: initial;
+    width: initial;
+  }
+  .wrap {
+    width: 670px;
+  }
+  .grid__column-2-4.m-4.col {
+    margin-top: 15px;
+  }
+  footer.footer {
+    margin-bottom: 425px;
+  }
+  .wrap__item--frame-voucher-product-quantity-remove,
+  .wrap__item--frame-voucher-product-add {
+    padding: 0 7px;
+  }
+  .wrap__item--frame-voucher-product-number {
+    width: 30px;
+  }
+
+  .wrap__item--frame-voucher-product-remove-btn {
+    border-radius: 3px;
+    border: 1px solid #999;
+    padding: 3px 12px;
+  }
+  .wrap__item--frame-voucher-product-remove {
+    width: initial;
+  }
+  .wrap__item--frame-voucher-product-money span {
+    color: #ee4d2d;
+    font-size: 1.5rem;
+    margin: 0 5px;
+  }
+  .wrap__footer {
+    width: 670px;
+  }
+  .wrap__footer-voucher {
+    justify-content: center;
+  }
+  button.wrap__footer-save {
+    display: none;
+  }
+  .wrap__footer-product-off {
+    display: none;
+  }
+  .wrap__footer-parten {
+    justify-content: space-between;
+  }
+  .wrap__footer-info-below {
+    display: none;
+  }
+  .wrap__footer-parten {
+    padding: 7px 0 12px;
+  }
+  .wrap__footer {
+    bottom: 36%;
+    left: 6%;
+    transform: initial;
+  }
+}
+@media (max-width: 1023px) {
+}
