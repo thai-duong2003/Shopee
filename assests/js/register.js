@@ -1,9 +1,9 @@
-const registerBlock = document.querySelector("#register");
-const registerNext = document.querySelector("#register__next");
-const logIn = document.querySelector("#login");
-const formLogIn = document.querySelector(".auth-form__container--login");
-const btnLogInBlock = document.querySelector(".auth-form__side--has-acc-login");
-const formRegister = document.querySelector(".auth-form__container");
+var registerBlock = document.querySelector("#register");
+var registerNext = document.querySelector("#register__next");
+var logIn = document.querySelector("#login");
+var formLogIn = document.querySelector(".auth-form__container--login");
+var btnLogInBlock = document.querySelector(".auth-form__side--has-acc-login");
+var formRegister = document.querySelector(".auth-form__container");
 
 btnLogInBlock.addEventListener("click", function (e) {
   e.preventDefault();
