@@ -75,7 +75,7 @@
     margin-top: 15px;
   }
   footer.footer {
-    margin-bottom: 425px;
+    /* margin-bottom: 425px; */
   }
   .wrap__item--frame-voucher-product-quantity-remove,
   .wrap__item--frame-voucher-product-add {
@@ -120,10 +120,190 @@
     padding: 7px 0 12px;
   }
   .wrap__footer {
-    bottom: 36%;
+    /* bottom: 36%; */
     left: 6%;
     transform: initial;
   }
 }
 @media (max-width: 1023px) {
+}
+
+@media (max-width: 739px) {
+  .header__navbar-item.header__navbar-user {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 65px;
+    transform: translateY(-50%);
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+    width: 357px;
+    margin: auto;
+  }
+
+  .wrap__item--first-text {
+    font-size: 1.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+  .wrap__item--two-checkbox {
+    flex: 1;
+  }
+
+  .wrap__item--frame {
+    padding: 1.3rem 1rem;
+  }
+  /* 
+  .wrap__item--frame-voucher-product-price-old,
+  .wrap__item--frame-voucher-product-price-new, */
+  .wrap__item--frame-voucher-product-money,
+  .wrap__item--frame-voucher-product-classify-size-color,
+  .wrap__item--two-parent,
+  .wrap__item--frame-buy-text {
+    display: none;
+  }
+
+  .wrap__item--frame-voucher-product-tick input {
+    height: 16px;
+    position: absolute;
+    left: -17px;
+    top: 46px;
+  }
+  .wrap__item--frame-voucher-product {
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .wrap__item--frame-voucher-product-contain-img {
+    width: 18%;
+    position: absolute;
+    top: 22px;
+  }
+  .wrap__item--frame-voucher-product-contain-info-text {
+    width: 550%;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 1.2rem;
+    margin-left: 56px;
+  }
+  .wrap__item--frame-voucher-product-contain-info img {
+    width: 25%;
+    position: absolute;
+    top: 68px;
+    left: 68px;
+  }
+  .wrap__item--frame-voucher-product-classify {
+    width: 40%;
+    background-color: #eaeaea;
+    padding: 2px;
+    margin: 0px 0 26px 54px;
+  }
+
+  .wrap__item--frame-voucher-product-classify-text {
+    font-size: 1.2rem;
+  }
+
+  .wrap__item--frame-voucher-product-quantity {
+    flex-direction: column;
+    width: 34%;
+    margin-left: 54px;
+  }
+
+  .wrap__item--frame-voucher-product-price {
+    font-size: 1.2rem;
+  }
+
+  .wrap__item--frame-voucher-product-price-old {
+    margin-left: 54px;
+  }
+
+  .wrap__item--frame-voucher-product-price-new {
+    color: var(--primary-color);
+  }
+  .wrap__item--frame-voucher-product-quantity-remove,
+  .wrap__item--frame-voucher-product-add {
+    padding: 0 8px;
+    font-size: 1.4rem;
+  }
+
+  .wrap__item--frame-voucher-product-number {
+    font-size: 12px;
+  }
+
+  .wrap__item--frame-voucher-product-remove {
+    position: absolute;
+    top: -33px;
+    right: 0;
+  }
+
+  .wrap__item--frame-voucher-product-remove-btn {
+    color: var(--primary-color);
+    border: none;
+    background-color: transparent;
+  }
+
+  /* footer */
+  .footer {
+    padding: 16px;
+  }
+  .wrap__footer {
+    width: 100%;
+  }
+
+  .wrap__footer-voucher {
+    width: 90%;
+  }
+
+  .wrap__footer-buy,
+  .wrap__footer-all {
+    width: auto;
+  }
+
+  .wrap__footer-info-above {
+    display: block;
+  }
+
+  .wrap__footer-save,
+  .wrap__footer-remove,
+  .wrap__footer-info-below,
+  .wrap__footer-product-off {
+    display: none;
+  }
+
+  .wrap__footer-parten {
+    padding: 0;
+  }
+
+  .wrap__footer-buy {
+    margin-left: 0;
+    padding: 10px 20px;
+  }
+
+  .wrap__footer-info {
+    margin-left: auto;
+    font-size: 1.2rem;
+  }
+  .wrap__footer-info-above-all {
+    color: #666;
+  }
+
+  /*  */
+  .wrap__item--frame-transport {
+    padding: 1rem 0 1rem 1.5rem;
+  }
+
+  .wrap__item--frame-transport-text-add {
+    margin: 0 1rem 0 1.5rem;
+  }
 }
