@@ -55,10 +55,9 @@
   top: -30px;
 }
 
-.header__navbar-item-link:hover .header__navbar-list--Language {
-  display: block;
+.header__cart-wrap .header__cart-list.block {
+  display: block !important;
 }
-
 .header__navbar-item-link--selected-language:hover
   .header__navbar-list--Language {
   display: block;

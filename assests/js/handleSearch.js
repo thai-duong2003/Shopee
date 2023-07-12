@@ -5,10 +5,11 @@ import { product_category, itepro } from "./handleproduct.js";
 
 var input, li, a, i, textvlu, fillter;
 input = document.querySelector(".header__search-input");
+
 export function search() {
   fillter = input.value.toUpperCase();
-  li = document.querySelectorAll(".home-product__item .col.l-2-4");
 
+  li = document.querySelectorAll(".home-product__item .col.l-2-4");
   for (var i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
     textvlu = a.textContent || a.innerText;
@@ -68,8 +69,9 @@ category_nav.forEach((item) => {
 
     item.classList.add("category-item--active");
     if (item.ariaValueText === "") {
+      input.value = config.searchvalue;
       category_product.innerHTML = product_category(products_list);
-      document.querySelector(".category-list-pro").location.reload();
+      // document.querySelector(".category-list-pro").location.reload();
     }
     window.onload();
   };

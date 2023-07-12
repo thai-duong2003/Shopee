@@ -5,6 +5,9 @@
     flex: 0 0 12.5%;
     max-width: 12.5%;
   }
+  .header__cart-wrap:hover .header__cart-list {
+    display: none;
+  }
 
   .header__navbar-item,
   .header__navbar-item-link,
@@ -140,5 +143,14 @@
       opacity: 1;
       top: var(--header-height);
     }
+  }
+  .header__cart-list {
+    right: -75px;
+  }
+  .header__cart-list::after {
+    right: 78px;
+  }
+  .header__cart-wrap:hover .header__cart-list {
+    display: none;
   }
 }

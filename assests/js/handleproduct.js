@@ -114,7 +114,7 @@ for (let i = 0; i < btn_filter.length; i++) {
         }
         break;
       default: {
-        console.log(123);
+        alert("tác vụ lỗi");
       }
     }
   };

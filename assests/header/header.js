@@ -565,3 +565,6 @@ document.querySelector(".header__navbar-user-item--separate").onclick = () => {
   console.log(1234);
   window.location = "register.html";
 };
+document.querySelector(".header__cart").onclick = () => {
+  document.querySelector(".header__cart-list").classList.toggle("block");
+};

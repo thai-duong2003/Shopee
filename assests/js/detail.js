@@ -101,7 +101,6 @@ $("i.title__back").onclick = () => {
 
 document.onscroll = () => {
   const oncrol = window.scrollY;
-  console.log(oncrol);
   if (oncrol > 100) {
     $(".detail_mobi_head__name_product").style.color = "#000";
     $(".detail_mobi_head").style.backgroundColor = "#fff";
@@ -117,4 +116,7 @@ document.onscroll = () => {
     $(".detail_mobi_head_cart i").classList.remove("coloiactive");
     $(".detail_mobi_head__menu_bar > i").classList.remove("coloiactive");
   }
+};
+$(".detail_mobi_head__back").onclick = () => {
+  window.location = "index.html";
 };
