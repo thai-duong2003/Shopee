@@ -55,6 +55,9 @@
   top: -30px;
 }
 
+.header__navbar-item-link:hover .header__navbar-list--Language {
+  display: block;
+}
 .header__cart-wrap .header__cart-list.block {
   display: block !important;
 }
@@ -470,10 +473,6 @@
   display: inline-block;
   padding: 0 12px;
   cursor: pointer;
-}
-
-.header__cart-wrap:hover .header__cart-list {
-  display: block;
 }
 
 .header__cart-icon {
