@@ -65,7 +65,7 @@ Quantity__boxbtn.forEach((item) => {
 
 const cart = $(".button-buy");
 cart.onclick = () => {
-  window.location = "/cart.html";
+  window.location = "cart.html";
 };
 
 // tố cáo
