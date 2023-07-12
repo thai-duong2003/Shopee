@@ -113,16 +113,21 @@ registerNext.addEventListener("submit", function (e) {
   }
 });
 
-logIn.addEventListener("submit", function (e) {
-  e.preventDefault();
+var email_logIn = document.querySelector('#email_login')
+var password_logIn = document.querySelector('#password_login')
 
-  let isEmptyError = checkEmptyError([emailInput, passwordInput]);
-  let isEmailError = checkEmailError(emailInput);
-  let isPasswordLengthError = checkLengthError(passwordInput, 3, 10);
-
-  if (!isEmptyError && !isEmailError && !isPasswordLengthError) {
-    window.location.href = "index.html";
-  } else {
-    console.log("Có lỗi xảy ra trong quá trình xác thực form");
-  }
+logIn.addEventListener('submit', function(e) {
+    e.preventDefault();
+  
+    let isEmptyError = checkEmptyError([email_logIn]);
+    let isEmailError = checkEmailError(email_logIn);
+    let isPasswordLengthError = checkLengthError(password_logIn, 3, 10);
+   
+  
+    if (!isEmptyError && !isEmailError && !isPasswordLengthError) {
+        window.location.href = 'index.html';
+    } else {
+      console.log('Có lỗi xảy ra trong quá trình xác thực form');
+    }
 });
+
