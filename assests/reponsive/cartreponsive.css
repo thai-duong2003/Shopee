@@ -306,4 +306,7 @@
   .wrap__item--frame-transport-text-add {
     margin: 0 1rem 0 1.5rem;
   }
+  .grid__column-2-4.m-4.c-6.col {
+    margin-top: 10px;
+  }
 }
